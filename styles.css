@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5rem;
+    background: #FFA351FF;
+}
+
+.wrapper {
+    width: 55vw;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+    background: #EED971FF;
+    box-shadow: 0 0 20px 20px #655e40;
+}
+
+.wrapper header {
+    position: relative;
+    bottom: 10%;
+    text-align: center;
+}
+
+.fas .fa-quote-left{
+    position: relative;
+    top: 15%;
+}
+
+.wrapper .content {
+    margin: 35px 0;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area i {
+    font-size: 17px;
+}
+
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+
+.quote-area .quote {
+    font-size: 25px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6%;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.author span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.wrapper .button {
+    margin-top: 8%;
+    border-top: 2px solid rgb(125, 84, 47);;
+}
+
+.button .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 8px;
+    height: 4vh;
+    width: 3vw;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: rgb(125, 84, 47);
+    border: 2px solid rgb(125, 84, 47);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover {
+    color: #fff;
+    background: #FFBE7BFF;
+}
+
+.features button {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 14px 22px;
+    border-radius: 30px;
+    background: rgb(125, 84, 47);
+}
+
+.features button:hover {
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.2rem;
+}
+
+button.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+#tweet-quote {
+    text-decoration: none;
+}
+
+footer {
+    background: #000;
+}
