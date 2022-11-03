@@ -1,0 +1,85 @@
+@media screen and (max-width:800px) {    
+body {
+    font-size: 1rem;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.wrapper {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 15px;
+    background: #EED971FF;
+    box-shadow: 0 0 16px 10px #655e40;
+    overflow: hidden;
+}
+
+.quote-area .quote {
+    font-size: 1.1rem;
+    margin-top: 10px;
+
+}
+
+.quote-area i {
+    font-size: 12px;
+}
+
+.content .author {
+    margin-top: 6%;
+    font-size: 1rem;
+}
+
+.wrapper header {
+    position: relative;
+    bottom: 3%;
+}
+
+.wrapper .button {
+    margin-top: 10%;
+    border-top: 2px solid rgb(125, 84, 47);;
+}
+
+.button .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    position: relative;
+    right: 30%;
+    height: 3vh;
+    width: 3vw;
+}
+
+.features ul li:hover {
+    color: #fff;
+    background: #FFBE7BFF;
+}
+
+#tweet-quote {
+    position: relative;
+    right: 20%;
+}
+
+.features button {
+    position: relative;
+    right: 16%;
+    width: 20vw;
+    height: 7vh;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: -20px;
+}
+
+.features button:hover {
+    width: 20vw;
+    height: 7vh;
+    font-size: 13px;
+}   
+}
